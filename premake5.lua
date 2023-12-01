@@ -1,8 +1,8 @@
-workspace "TemplateApp"
+workspace "AoC2023"
    architecture "x64"
    configurations { "Debug", "Release", "Dist" }
-   startproject "TemplateApp"
+   startproject "AoC2023"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
-include "TemplateApp"
+include "AoC2023"
